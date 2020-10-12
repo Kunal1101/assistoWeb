@@ -1,0 +1,45 @@
+.footer{
+    background-color: #333;
+    padding: 10rem 0;
+    font-size: 1.4 rem;
+
+
+    &-navigation
+    {
+        
+    }
+     &-list
+     {
+        list-style: none;
+     }
+
+     &-item
+     {
+         display: inline-block;
+
+         &:not(:last-child)
+         {
+             margin-right: 1.5rem;;
+         }
+     }
+
+        &-link{
+            &:link,
+            &:visited
+            {
+                color: white;
+                text-decoration: none;
+                text-transform: uppercase;
+               float: left;
+               margin-left: 1rem;
+
+            }
+            &:hover,
+            &:active
+            {
+                color: chartreuse;
+                box-shadow: 0 1rem 2 rem green;
+            }
+        }
+
+}

@@ -1,0 +1,62 @@
+*
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@include respond-phone
+{
+    font-size: 50%;
+}
+@include respond(phone)
+{ font-size: 50%;}
+@include respond(tab-port)
+{ font-size: 60%;}
+
+@include respond(tab-landscape)
+{ font-size: 70%;}
+
+@include respond(big-destop)
+{ font-size: 80%;}
+
+
+
+
+
+
+
+
+
+body
+{
+   font-family: 'Poppins' sans-serif; 
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.7;
+   color: #777;
+   padding: 5px;
+}
+
+.header
+{
+    height: 95vh;
+    background-image: linear-gradient(to right bottom,
+     rgba(0, 0, 0, 0.932),
+     rgba(0, 0, 0, 0.377)),
+       url(../../imgs/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+position: relative;
+}
+
+@media only screen and (min-width: 600px)
+
+{
+    .header{
+        height: 70vh;
+
+    }
+}

@@ -1,0 +1,29 @@
+@import "./abstract/functions";
+@import "./abstract/mixin";
+@import "./abstract/variables";
+
+
+
+@import "./base/base"; //base of the website
+@import "./base/animation"; //all the animation are in this //
+@import "./base/topographay";
+@import "./base/utility";
+
+@import "./pages/home";
+@import "./components/button"; //button 
+@import "./layouts/header"; //page header
+@import "./components/logo"; //logo box
+@import "./layouts/grdi"; //Grids
+
+@import "./components/composition"; //Composition 
+
+@import "./components/feature-box"; //feature box sass
+
+@import "./components/card"; //Card of main course
+
+@import "./pages/footed"; //footer of the page
+
+    
+@import "./components/story"; //students
+
+@import "./layouts/navigation"; //navigation
